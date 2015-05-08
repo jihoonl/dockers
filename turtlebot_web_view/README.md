@@ -2,19 +2,20 @@
 
 ## Prerequisite
 
-'''
+```
   sudo apt-get install docker.io
   sudo docker.io pull jihoonl/turtlebot-web-view
-'''
+```
 
 ## Execution
 
 1. Starts Docker Container. Rsbridge port will be exposed as localhost:8888
-'''
+```
  > sudo docker.io run -d -p 8888:9090 jihoonl/turtlebot-web-view
-'''
+```
 
-2. Access rosbridge via ws://localhost:8888
+2. Open [urdf.html](example/urdf.html) 
+
 
 
 ## Customise 
