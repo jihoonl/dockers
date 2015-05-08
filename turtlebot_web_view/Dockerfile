@@ -11,10 +11,6 @@ RUN apt-get install -y --force-yes vim git python-wstool nodejs
 RUN useradd -m ros
 RUN adduser ros root
 
-# Install Upstart Script
-RUN cd /tmp; wget https://raw.githubusercontent.com/jihoonl/dockers/master/turtlebot_web_view/files/turtlebot-web.conf
-RUN mv /tmp/turtlebot-web.conf /etc/init/
-
 # Install turtlebot webview launcher
 RUN cd /tmp; wget https://raw.githubusercontent.com/jihoonl/dockers/master/turtlebot_web_view/files/turtlebot_web.launch
 RUN mv /tmp/turtlebot_web.launch /home/ros/
