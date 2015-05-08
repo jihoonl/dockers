@@ -16,6 +16,7 @@
 
 2. Open [urdf.html](example/urdf.html) 
 
+<img src="turtlebot_webview.png" alt="alt text" width=400px></img>
 
 
 ## Customise 
