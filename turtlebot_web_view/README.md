@@ -20,10 +20,10 @@
 
 ## Customise 
 
-1. Edit Dockerfile and image name in build_environment
+1. Edit [Dockerfile](Dockerfile) and image name in [build_environment.sh](build_environment.sh)
 
 2. Create image 
 
-'''
-  ./build_environment
-'''
+```
+  ./build_environment.sh
+```
