@@ -9,12 +9,14 @@
 
 ## Execution
 
-1. Starts Docker Container. Rsbridge port will be exposed as localhost:8888
+* Starts Docker Container. Rsbridge port will be exposed as localhost:8888
 ```
  > sudo docker.io run -d -p 8888:9090 jihoonl/turtlebot-web-view
 ```
+* Open [urdf.html](example/urdf.html) 
+ 
 
-2. Open [urdf.html](example/urdf.html) 
+* [Live Demo](http://webapp.robotconcert.org/rocon_web_common/example/turtlebot_view.html)
 
 <img src="turtlebot_webview.png" alt="alt text" width=400px></img>
 
