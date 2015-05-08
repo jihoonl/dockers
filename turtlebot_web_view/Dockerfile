@@ -19,4 +19,6 @@ RUN mv /tmp/turtlebot-web.conf /etc/init/
 RUN cd /tmp; wget https://raw.githubusercontent.com/jihoonl/dockers/master/turtlebot_web_view/files/turtlebot_web.launch
 RUN mv /tmp/turtlebot_web.launch /home/ros/
 
-CMD ["start", "turtlebot-web"]
+EXPOSE 9090
+
+CMD ["start","-v","turtlebot-web"]
